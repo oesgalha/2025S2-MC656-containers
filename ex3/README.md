@@ -60,13 +60,13 @@ Se você se autenticou corretamente, a imagem agora está publicada no registry
 de imagens da GitHub.
 
 Você pode vê-la em:
-https://github.com/users/<USERNAME>/packages/container/package/mc656ex1
+`https://github.com/users/<USERNAME>/packages/container/package/mc656ex1`
 
 ## Confirme a distribuição
 
 Agora vá nas configurações do pacote e mude a visiblidade do pacote de privado
 para público:
-https://github.com/users/<USERNAME>/packages/container/mc656ex1/settings
+`https://github.com/users/<USERNAME>/packages/container/mc656ex1/settings`
 
 Agora tente usar o seu container em outro computador com:
 ```
