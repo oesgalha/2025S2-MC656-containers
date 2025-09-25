@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /code
+  maildev:
+    image: "maildev/maildev"
+    ports:
+      - "1080:1080"
